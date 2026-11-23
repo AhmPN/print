@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vutaa print — Serba 1K | Cepat & Murah bagi Pelajar</title>
-    <meta name="description" content="Jasa print cepat dan murah untuk pelajar SD, SMP, SMA di Desa Pandu Senjaya, SP 4 Pangkalan Lada. Harga Serba 1K & Gratis Delivery minimal 15 lembar.">
-    
+    <meta name="description" content="Jasa print cepat dan murah untuk pelajar SD, SMP, SMA di Desa Pandu Senjaya, SP 4 Pangkalan Lada. Harga Serba 1K & Gratis Delivery minimal 15 lembar.">  
     <!-- Google Fonts: Plus Jakarta Sans & Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">   
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="https://cdn.tailwindcss.com"></script>    
     <!-- QRCode.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
     <script>
         tailwind.config = {
             theme: {
@@ -49,7 +44,6 @@
             }
         }
     </script>
-
     <style>
         body {
             background-color: #0B132B;
@@ -84,7 +78,6 @@
     </style>
 </head>
 <body class="text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-gold-400 selection:text-navy-950">
-
     <!-- Toast Notification -->
     <div id="toast" class="fixed bottom-4 right-4 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
         <div id="toast-box" class="bg-emerald-600 text-white px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-2.5 border border-emerald-400/30 text-xs font-bold">
@@ -92,7 +85,6 @@
             <span id="toast-message">Berhasil disalin!</span>
         </div>
     </div>
-
     <!-- HEADER / NAVBAR RINGKAS -->
     <header class="sticky top-0 z-40 bg-navy-950/90 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-3 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2">
@@ -110,7 +102,6 @@
                     SERBA 1K
                 </span>
             </div>
-
             <!-- Tag Jenjang & Tombol Cepat Chat WA -->
             <div class="flex items-center gap-2 sm:gap-3">
                 <span class="hidden md:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
@@ -125,14 +116,11 @@
             </div>
         </div>
     </header>
-
     <!-- MAIN COMPACT GRID CONTENT -->
     <main class="flex-1 max-w-6xl w-full mx-auto px-3 sm:px-6 py-4 sm:py-6 flex items-center">
-        <div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5 items-stretch">
-            
+        <div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5 items-stretch">         
             <!-- KOLOM KIRI: INFO LAYANAN, DELIVERY & LOKASI/QR (7 Kolom di Desktop) -->
-            <div class="lg:col-span-7 flex flex-col justify-between gap-3.5 sm:gap-4">
-                
+            <div class="lg:col-span-7 flex flex-col justify-between gap-3.5 sm:gap-4">               
                 <!-- 1. Kartu Promo & Harga 'SERBA 1K' -->
                 <section class="card-surface rounded-2xl p-4 sm:p-5 relative overflow-hidden">
                     <div class="flex flex-wrap items-center justify-between gap-2 mb-3.5">
@@ -153,7 +141,6 @@
                             Rp 1.000 / Lbr
                         </div>
                     </div>
-
                     <!-- 3 Item Harga Sejajar Kompak -->
                     <div class="grid grid-cols-3 gap-2 sm:gap-3">
                         <!-- Hitam Putih -->
@@ -166,7 +153,6 @@
                                 1K
                             </div>
                         </div>
-
                         <!-- Berwarna -->
                         <div class="bg-navy-900/90 border border-white/10 rounded-xl p-2.5 sm:p-3 text-center hover:border-gold-400/40 transition-colors">
                             <div class="w-8 h-8 sm:w-9 sm:h-9 mx-auto mb-1.5 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center text-sm sm:text-base">
@@ -177,7 +163,6 @@
                                 1K
                             </div>
                         </div>
-
                         <!-- Full Warna -->
                         <div class="bg-navy-900/90 border border-gold-400/30 rounded-xl p-2.5 sm:p-3 text-center hover:border-gold-400 transition-colors">
                             <div class="w-8 h-8 sm:w-9 sm:h-9 mx-auto mb-1.5 rounded-lg bg-brandOrange-500/20 text-brandOrange-400 flex items-center justify-center text-sm sm:text-base">
@@ -190,7 +175,6 @@
                         </div>
                     </div>
                 </section>
-
                 <!-- 2. Kartu Info Gratis Delivery -->
                 <section class="rounded-2xl bg-gradient-to-r from-gold-400 via-gold-500 to-brandOrange-600 p-3.5 sm:p-4 text-navy-950 shadow-lg shadow-brandOrange-600/15 flex items-center gap-3.5">
                     <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-navy-950 text-gold-400 flex items-center justify-center text-xl sm:text-2xl shrink-0 shadow-md">
@@ -207,7 +191,6 @@
                         </p>
                     </div>
                 </section>
-
                 <!-- 3. Kartu Lokasi & Scan QR WhatsApp -->
                 <section class="card-surface rounded-2xl p-4 sm:p-5 flex-1 flex items-center">
                     <div class="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -225,7 +208,6 @@
                                     <div class="text-xs text-slate-400">SP 4 Pangkalan Lada</div>
                                 </div>
                             </div>
-
                             <div class="flex items-start gap-3 pt-2.5 border-t border-white/10">
                                 <div class="w-9 h-9 rounded-xl bg-emerald-500/15 border border-emerald-400/30 text-emerald-400 flex items-center justify-center text-base shrink-0 mt-0.5">
                                     <i class="fa-brands fa-whatsapp"></i>
@@ -243,7 +225,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- QR Code WhatsApp Kompak -->
                         <div class="w-full sm:w-auto flex sm:flex-col items-center justify-center gap-3 sm:gap-1.5 bg-navy-900/90 border border-gold-400/30 rounded-xl p-3 shrink-0">
                             <div class="bg-white p-2 rounded-lg relative shadow-inner">
@@ -264,9 +245,7 @@
                         </div>
                     </div>
                 </section>
-
             </div>
-
             <!-- KOLOM KANAN: KALKULATOR ORDER CEPAT KE WA (5 Kolom di Desktop) -->
             <div class="lg:col-span-5">
                 <section class="card-surface rounded-2xl p-4 sm:p-5 h-full flex flex-col justify-between border-gold-400/30 shadow-2xl">
@@ -288,7 +267,6 @@
                                 Reset
                             </button>
                         </div>
-
                         <form id="quickOrderForm" class="space-y-3">
                             <!-- Input Jumlah Lembar Kompak (Baris Horizontal Hemat Ruang) -->
                             <div class="space-y-2">
@@ -305,7 +283,6 @@
                                         <button type="button" onclick="updateQty('qtyBw', 1)" class="w-8 h-8 rounded-lg bg-gold-400/20 hover:bg-gold-400/30 text-gold-400 font-bold text-sm flex items-center justify-center active:scale-95">+</button>
                                     </div>
                                 </div>
-
                                 <!-- Row 2: Berwarna -->
                                 <div class="flex items-center justify-between bg-navy-900/90 border border-white/10 rounded-xl px-3 py-2">
                                     <div>
@@ -319,7 +296,6 @@
                                         <button type="button" onclick="updateQty('qtyColor', 1)" class="w-8 h-8 rounded-lg bg-gold-400/20 hover:bg-gold-400/30 text-gold-400 font-bold text-sm flex items-center justify-center active:scale-95">+</button>
                                     </div>
                                 </div>
-
                                 <!-- Row 3: Full Warna -->
                                 <div class="flex items-center justify-between bg-navy-900/90 border border-white/10 rounded-xl px-3 py-2">
                                     <div>
@@ -334,7 +310,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!-- Pilihan Metode Pengambilan / Delivery -->
                             <div>
                                 <div class="grid grid-cols-2 gap-2">
@@ -351,7 +326,6 @@
                                         </div>
                                     </label>
                                 </div>
-
                                 <!-- Box Validasi & Alamat Antar (Hanya tampil jika Gratis Delivery dipilih) -->
                                 <div id="deliverySection" class="hidden mt-2.5 space-y-2 p-2.5 rounded-xl bg-navy-900/95 border border-brandOrange-500/30">
                                     <div id="deliveryAlert" class="text-[11px] font-semibold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-400/30 leading-snug">
@@ -361,13 +335,11 @@
                                            class="w-full px-3 py-2 rounded-lg bg-navy-950 border border-white/15 text-white placeholder-slate-500 text-xs focus:outline-none focus:border-gold-400">
                                 </div>
                             </div>
-
                             <!-- Nama Pemesan (Opsional) -->
                             <div>
                                 <input type="text" id="buyerName" placeholder="Nama pemesan (opsional, misal: Rina - SMP)"
                                        class="w-full px-3 py-2 rounded-xl bg-navy-900 border border-white/15 text-white placeholder-slate-500 text-xs focus:outline-none focus:border-gold-400">
                             </div>
-
                             <!-- Total Harga Real-Time + Tombol Utama WhatsApp -->
                             <div class="pt-2 border-t border-white/10">
                                 <div class="flex items-center justify-between mb-2.5 px-1">
@@ -379,7 +351,6 @@
                                         Rp 0
                                     </div>
                                 </div>
-
                                 <button type="submit"
                                         class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-emerald-600/25 flex items-center justify-center gap-2 transition-all active:scale-95">
                                     <i class="fa-brands fa-whatsapp text-lg"></i>
@@ -390,21 +361,17 @@
                     </div>
                 </section>
             </div>
-
         </div>
     </main>
-
     <!-- FOOTER SUPER RINGKAS -->
     <footer class="border-t border-white/10 bg-navy-950/80 py-2.5 px-4 text-center text-[11px] text-slate-400">
         <span class="font-bold text-slate-200">vutaa print</span> • Desa Pandu Senjaya RT 12 RW 3, SP 4 Pangkalan Lada • WA: 0858-2452-2033
     </footer>
-
     <!-- SCRIPT LOGIKA KALKULATOR, QR CODE & WHATSAPP -->
     <script>
         const PRICE_UNIT = 1000;
         const WA_PHONE = "6285824522033";
         const DISPLAY_PHONE = "0858-2452-2033";
-
         // Generate QR Code WhatsApp saat halaman dimuat
         window.addEventListener("DOMContentLoaded", () => {
             try {
@@ -422,18 +389,15 @@
             }
             recalculate();
         });
-
         function formatIDR(num) {
             return "Rp " + num.toLocaleString("id-ID");
         }
-
         function updateQty(id, delta) {
             const el = document.getElementById(id);
             const current = parseInt(el.value) || 0;
             el.value = Math.max(0, current + delta);
             recalculate();
         }
-
         function resetCalculator() {
             document.getElementById("qtyBw").value = 0;
             document.getElementById("qtyColor").value = 0;
@@ -443,7 +407,6 @@
             document.querySelector('input[name="method"][value="Ambil di Tempat"]').checked = true;
             handleMethodChange();
         }
-
         function handleMethodChange() {
             const method = document.querySelector('input[name="method"]:checked').value;
             const deliverySection = document.getElementById("deliverySection");
@@ -454,22 +417,17 @@
             }
             recalculate();
         }
-
         function recalculate() {
             const bw = Math.max(0, parseInt(document.getElementById("qtyBw").value) || 0);
             const color = Math.max(0, parseInt(document.getElementById("qtyColor").value) || 0);
             const full = Math.max(0, parseInt(document.getElementById("qtyFull").value) || 0);
-
             const totalSheets = bw + color + full;
             const totalCost = totalSheets * PRICE_UNIT;
-
             document.getElementById("totalSheets").textContent = totalSheets;
             document.getElementById("totalPrice").textContent = formatIDR(totalCost);
-
             const method = document.querySelector('input[name="method"]:checked').value;
             const deliveryNote = document.getElementById("deliveryNote");
             const deliveryAlert = document.getElementById("deliveryAlert");
-
             if (method === "Ambil di Tempat") {
                 deliveryNote.textContent = "Ambil di Pandu Senjaya RT 12 RW 3";
                 deliveryNote.className = "text-[10px] text-slate-400";
@@ -477,49 +435,40 @@
                 if (totalSheets >= 15) {
                     deliveryNote.textContent = "Gratis Delivery SP 4 (16.30 - 20.00)";
                     deliveryNote.className = "text-[10px] text-emerald-400 font-bold";
-
                     deliveryAlert.className = "text-[11px] font-semibold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 leading-snug";
                     deliveryAlert.innerHTML = `<i class="fa-solid fa-circle-check mr-1"></i>Syarat terpenuhi (${totalSheets} lbr)! Gratis antar area SP 4 Pangkalan Lada jam 16.30 - 20.00.`;
                 } else {
                     const kurang = 15 - totalSheets;
                     deliveryNote.textContent = `Kurang ${kurang} lbr untuk Gratis Delivery`;
                     deliveryNote.className = "text-[10px] text-amber-400 font-bold";
-
                     deliveryAlert.className = "text-[11px] font-semibold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-400/30 leading-snug";
                     deliveryAlert.innerHTML = `<i class="fa-solid fa-triangle-exclamation mr-1"></i>Kurang <strong>${kurang} lembar</strong> lagi untuk Gratis Delivery (Min. 15 lbr, area SP 4 Pangkalan Lada, jam 16.30 - 20.00).`;
                 }
             }
         }
-
         document.getElementById("quickOrderForm").addEventListener("submit", function(e) {
             e.preventDefault();
-
             const bw = Math.max(0, parseInt(document.getElementById("qtyBw").value) || 0);
             const color = Math.max(0, parseInt(document.getElementById("qtyColor").value) || 0);
             const full = Math.max(0, parseInt(document.getElementById("qtyFull").value) || 0);
             const totalSheets = bw + color + full;
             const totalCost = totalSheets * PRICE_UNIT;
-
             if (totalSheets === 0) {
                 showToast("Masukkan minimal 1 lembar dokumen dulu ya!", true);
                 return;
             }
-
             const method = document.querySelector('input[name="method"]:checked').value;
             const address = document.getElementById("deliveryAddress").value.trim();
             const buyerName = document.getElementById("buyerName").value.trim();
-
             if (method === "Gratis Delivery" && totalSheets < 15) {
                 showToast("Gratis Delivery minimal 15 lembar (Area SP 4 Pangkalan Lada).", true);
                 return;
             }
-
             if (method === "Gratis Delivery" && !address) {
                 showToast("Tulis alamat/patokan antar di area SP 4 Pangkalan Lada ya!", true);
                 document.getElementById("deliveryAddress").focus();
                 return;
             }
-
             let text = `Halo *vutaa print*, saya mau order print:\n`;
             if (buyerName) text += `• Nama: *${buyerName}*\n`;
             text += `\n*Rincian Cetak (Serba 1K):*\n`;
@@ -533,11 +482,9 @@
                 text += `• Jadwal Delivery: Jam 16.30 - 20.00\n`;
             }
             text += `\n_File dokumen segera saya kirim setelah pesan ini._`;
-
             const url = `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(text)}`;
             window.open(url, "_blank", "noopener,noreferrer");
         });
-
         function copyPhone() {
             const temp = document.createElement("input");
             temp.value = DISPLAY_PHONE;
@@ -551,14 +498,12 @@
             }
             document.body.removeChild(temp);
         }
-
         let toastTimer;
         function showToast(msg, isWarning = false) {
             const toast = document.getElementById("toast");
             const box = document.getElementById("toast-box");
             const icon = document.getElementById("toast-icon");
             const text = document.getElementById("toast-message");
-
             text.textContent = msg;
             if (isWarning) {
                 box.className = "bg-brandOrange-600 text-white px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-2.5 border border-amber-300/40 text-xs font-bold";
@@ -567,7 +512,6 @@
                 box.className = "bg-emerald-600 text-white px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-2.5 border border-emerald-400/30 text-xs font-bold";
                 icon.className = "fa-solid fa-circle-check text-base";
             }
-
             toast.classList.remove("translate-y-20", "opacity-0");
             clearTimeout(toastTimer);
             toastTimer = setTimeout(() => {
@@ -577,4 +521,3 @@
     </script>
 </body>
 </html>
-```
